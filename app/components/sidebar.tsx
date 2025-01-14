@@ -236,8 +236,11 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title={
+          <Link to="logicj.com" className={styles["sidebar-title-link"]}>
+            LogicJ
+          </Link>
+        subTitle="Enter the password when first use."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >

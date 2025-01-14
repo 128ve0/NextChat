@@ -238,7 +238,6 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title={<a href="https://logicj.com" rel="noopener noreferrer" style={{ fontSize: '80px' }}>LogicJ</a>}
         subTitle="Enter the password when first use."
-        logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
         <div className={styles["sidebar-header-bar"]}>

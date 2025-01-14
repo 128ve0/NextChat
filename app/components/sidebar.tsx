@@ -237,9 +237,10 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title={
-          <Link to="logicj.com" className={styles["sidebar-title-link"]}>
+          <Link to="logicj.com">
             LogicJ
           </Link>
+        }
         subTitle="Enter the password when first use."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
